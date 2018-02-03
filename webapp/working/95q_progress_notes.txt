@@ -1,0 +1,144 @@
+1.  Add new layer [9inside].  Text tool.  Cooper Std. Black Italic 328. Text color #ffffff; faux small caps.
+2.  Blending options:  stroke; outside; 12px, #aacb2f
+3.  Select color range:  image #aacb2f.
+4.  Create new layer [9middle].  Fill selection with aacb2f;
+5.  Hide [9middle].
+6.  Select [9inside].
+7.  Deselect color.
+8.  Change stroke in Blending options to outside; 17px; #000000.
+9.  Select color range: image #000000.
+10. create new layer [9outside].  Fill selection with #000000;  Deselect.
+11. Show [9middle].
+12. Remove stroke effect from Blend on [9inside].
+13. Arrange layers (top to bottom) middle, outside, inside
+14. Link layers
+
+15. Hide layers: 9inside,9middle, 9outside
+16. [Repeat steps 1-14 for the '5' and the 'q']
+
+17. Create a copy of [9inside] called [9inside_b_right]
+    and set the Blending Options as follows:
+      Bevel and Emboss: ON
+      Structure:
+        style: Inner Bevel
+        Technique: Smooth
+        Direction: up
+        Depth: 115%
+        Size: 15px
+        Soften: 0px
+      Shading:
+        Angle: 120 degrees
+        Use Global Light: OFF
+        Altitude: 30 degrees
+        Gloss Contour: Linear NOT anti-aliased
+        Highlight Mode: Screen; #ffffff; Opacity: 75%
+        Shadow Mode: Multiply; #000000; Opacity: 90%
+      Advanced Blending:  Fill Opacity: 0%
+
+18. Repeat step 17 for 5inside and qinside.
+
+19. Create another copy of [9inside] called [9inside_left]
+    and set the blending options as follows:
+      Advanced Blending: Opacity: 0%;
+      Bevel and Emboss:
+        Structure:
+          style: Inner Bevel
+          Technique: Smooth
+          Direction: up
+          Depth: 115%
+          Size: 15px
+          Soften: 0px
+        Shading:
+          Angle: 0 degrees
+          Use Global Light: OFF
+          Altitude: 30 degrees
+          Gloss Contour: Linear NOT anti-aliased
+          Highlight Mode: Screen; #ffffff; Opacity: 75%
+          Shadow Mode: Multiply; #000000; Opacity: 80%
+        
+20. Repeat step 19 for [5inside] and [qinside].
+
+21. Create another copy of [9inside] called [9inside_b_left]
+    and set the blending options as follows:
+      Advanced Blending: Opacity: 0%;
+      Bevel and Emboss:
+        Structure:
+          style: Inner Bevel
+          Technique: Smooth
+          Direction: up
+          Depth: 115%
+          Size: 15px
+          Soften: 0px
+        Shading:
+          Angle: -122 degrees
+          Use Global Light: OFF
+          Altitude: 42 degrees
+          Gloss Contour: Linear NOT anti-aliased
+          Highlight Mode: Screen; #ffffff; Opacity: 75%
+          Shadow Mode: Multiply; #000000; Opacity: 50%
+          
+22. Repeat step 21 for [5inside] and [qinside].
+
+23. Create copy of [9middle] called [9middle_b_right]
+    and set the blending options as follows:
+      Advanced Blending: Opacity: 0%;
+      Bevel and Emboss:
+        Structure:
+          style: Inner Bevel
+          Technique: Smooth
+          Direction: up
+          Depth: 150%
+          Size: 6px
+          Soften: 0px
+        Shading:
+          Angle: 120 degrees
+          Use Global Light: OFF
+          Altitude: 30 degrees
+          Gloss Contour: Linear NOT anti-aliased
+          Highlight Mode: Screen; #ffffff; Opacity: 100%
+          Shadow Mode: Multiply; #000000; Opacity: 100%
+          
+24. Repeat step 23 for [5middle] and [qmiddle].          
+
+25. Create copy of [9outside] called [9outside_b_right]
+    and set the blending options as follows:
+      Advanced Blending: Opacity: 0%;
+      Bevel and Emboss:
+        Structure:
+          style: Inner Bevel
+          Technique: Smooth
+          Direction: up
+          Depth: 150%
+          Size: 4px
+          Soften: 0px
+        Shading:
+          Angle: 120 degrees
+          Use Global Light: OFF
+          Altitude: 30 degrees
+          Gloss Contour: Cove Deep NOT anti-aliased
+          Highlight Mode: Screen; #ffffff; Opacity: 100%
+          Shadow Mode: Multiply; #000000; Opacity: 60%
+          
+26. Repeat step 23 for [5middle] and [qmiddle].          
+
+27. Create another copy of [5middle] called [5middle_left]
+    and set the blending options as follows:
+      Advanced Blending: Opacity: 0%;
+      Bevel and Emboss:
+        Structure:
+          style: Inner Bevel
+          Technique: Smooth
+          Direction: up
+          Depth: 150%
+          Size: 5px
+          Soften: 0px
+        Shading:
+          Angle: 0 degrees
+          Use Global Light: OFF
+          Altitude: 30 degrees
+          Gloss Contour: Cove Deep NOT anti-aliased
+          Highlight Mode: Screen; #ffffff; Opacity: 75%
+          Shadow Mode: Multiply; #000000; Opacity: 60%
+          
+28. Repeat step 23 for [9middle] and [qmiddle].          
+

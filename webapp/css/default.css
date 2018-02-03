@@ -1,0 +1,204 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+	
+td {
+	font:16px "Times New Roman", Times, serif;
+	color:#ffffff;
+	}
+	
+hr {
+	height:1px; 
+	color: #cccccc;
+	border: none;
+	}
+	
+a {
+	color: #F7DEC0;
+	text-decoration:underline;
+	}
+	
+a:hover {
+	color: #FF3300;
+	text-decoration:none;
+	}
+	
+/* ID Styles */
+
+#navigation a {
+	font:11px georgia;
+	color: #94ca52;
+	font-weight:bold;
+	text-decoration: none;
+	letter-spacing:.1em;
+	line-height:16px;
+	display:block;
+	padding:10px;
+	border: 1pt solid #94ca52;
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	}
+	
+#navigation a:hover {
+	color:#ffffff;
+	}
+	
+#sidebarHeader {
+	padding: 0px 4px 14px 4px;
+	}
+
+#logo {
+	font:18px georgia;
+	color: #ffffff;
+	line-height:24px;
+	letter-spacing:.4em;
+	}
+
+#tagline {
+	font:12px georgia;
+	color: #CC3300;
+	line-height:18px;
+	letter-spacing:.4em;
+	}
+	
+#dateformat a {
+	color:#99CCFF;
+	font:11px georgia;
+	color: #99CCFF;
+	letter-spacing:.2em;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#dateformat a:hover {
+	color: #ffffff;
+	}
+
+/* Class Styles */
+
+.bodyText {
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	line-height:16px;
+	margin-top:0px;
+	}
+.bodyText a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+.bodyText a:hover {
+	text-decoration:none;
+	color:#FFFF00;
+}
+	
+.musicList {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	line-height:16px;
+	margin-top:0px;
+	
+	}
+	
+.labelText {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	line-height:20px;
+	letter-spacing:.1em;
+	font-weight: bold;
+	margin-top:0px;
+	}
+.labelText a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+.labelText a:hover {
+	text-decoration:none;
+	color:#FFFF00;
+}
+
+.eventText {
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	line-height:18px;
+	padding: 2px 2px 2px 2px;
+	}
+
+.error {
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	color:#FF0000;
+	line-height:18px;
+	padding: 2px 2px 2px 2px;
+	font-weight: bold;
+	}
+
+.inputText {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	line-height: 18px;
+	background-color: #e8e8e8;
+	border: thin;
+	}
+
+.pageName{
+	font:22px georgia;
+	color: #F7DEC0;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.subHeader {
+	font:16px georgia;
+	color: #F7DEC0;
+	font-weight:bold;
+	letter-spacing:.1em;
+	line-height:16px;
+	}	
+	
+.sidebarHeader {
+	font:14px georgia;
+	color: #94ca52;
+	font-weight:bold;
+	letter-spacing:.1em;
+	line-height:16px;
+	}	
+	
+.detailText {
+	font:11px arial;
+	color:#ffffff;
+	line-height:16px;
+	letter-spacing:.1em;
+	}
+	
+.smallText {
+	font:11px arial;
+	color:#808080;
+	padding: 2px 0px 2px 0px;
+	}
+.smallText a {
+	text-decoration:underline;
+}
+.smallText a:hover {
+	text-decoration:none;
+	color:#33FFFF;
+}
+.buttonText {
+	font-size:11px;
+}
+.hometable {
+	padding: 1px 3px 6px 1px;
+	border-bottom: 0px;
+	border-top: 0px;
+}
+
+.app_section_header {
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	border-top: 1px #ffffff solid;
+	border-right: 1px #ffffff solid;
+	border-bottom: 1px #ffffff solid;
+	border-left: 1px #ffffff solid;
+}	
+
+	
